@@ -1,12 +1,7 @@
 #include <stdio.h>
 
-/*
- * @author jelathro
- * @date 2/19/13
- *
- * Provide various examples of pointers
- * and how pointers work.
- */
+// Various examples of pointers and how pointers work.
+
 int main(void){
     // Basic pointers and Basic addresses
     int *basic_pointer;
