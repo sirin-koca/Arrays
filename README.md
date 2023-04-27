@@ -15,6 +15,12 @@
 
 6. Arrays and strings: C also supports arrays, which allow you to store multiple values of the same type in a single variable, and strings, which are essentially arrays of characters.
 
+## main()
+Every C program must have a main() function, and the function must return an integer value. This is a requirement of the C programming language and is enforced by the C standard.
+
+The reason for this requirement is that the operating system uses the return value of main() to determine whether the program executed successfully or not. By convention, a return value of 0 indicates success, and any other value indicates an error.
+
+It's worth noting that while the return type of main() must be an integer, the function itself can be defined with no parameters (int main(void)) or with two parameters (int main(int argc, char *argv[])), which can be used to pass command line arguments to the program.
 ## Installation
 - Install a C compiler such as GCC or Clang.
 - Clone the repository: git clone https://github.com/yourusername/c-programming.git
