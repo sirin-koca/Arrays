@@ -1,5 +1,19 @@
 # C Programming Language
-### This repository contains sample programs written in C.
+#### This repository contains sample programs written in C.
+
+## Fundamentals of C programming language:
+
+1. Variables and data types: C supports various data types, including integers, floating-point numbers, characters, and pointers. You can declare variables of these types and assign values to them using the = operator.
+
+2. Control structures: C supports several control structures, including if/else statements, loops (for, while, do-while), and switch statements. These structures allow you to control the flow of execution in your program based on conditions and inputs.
+
+3. Functions: Functions are a core feature of C, allowing you to encapsulate a block of code that can be called from other parts of your program. Functions can take arguments and return values, and they can be used to break up complex logic into smaller, more manageable units.
+
+4. Pointers: Pointers are a powerful feature of C that allow you to work with memory addresses directly. They can be used to create dynamic data structures, such as linked lists and trees, and to optimize memory usage in your programs.
+
+5. Input/output: C supports various input/output functions, including printf and scanf, which allow you to read and write data to the console and other devices.
+
+6. Arrays and strings: C also supports arrays, which allow you to store multiple values of the same type in a single variable, and strings, which are essentially arrays of characters.
 
 ## Installation
 - Install a C compiler such as GCC or Clang.
